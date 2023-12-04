@@ -6,7 +6,7 @@ import { DatePicker } from 'react-native-input';
 
 export default function App() {
   const [selectedDay, setSelectedDay] = useState<Date>();
-
+  let [password, setPassword] = useState<string>('');
   return (
     <View style={styles.container}>
       <Text> {selectedDay?.toString()} </Text>
@@ -37,6 +37,14 @@ export default function App() {
         IconColor="white"
         backgroundColorSelectedValue="#1C1C1C"
       />
+      <PasswordStrengthMeter
+        onChangeText={setPassword}
+        value={password}
+        strengthFunction={(p: string) => {
+          return p.length;
+        }}
+        maxStrength={12}
+      />     
     </View>
   );
 }

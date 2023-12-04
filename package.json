@@ -39,7 +39,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/ClementChambard/react-native-input",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClementChambard/react-native-input.git"
+  },
   "author": "Clément Chambard <cclems2002@gmail.com> (https://github.com/ClementChambard)",
   "license": "MIT",
   "bugs": {
