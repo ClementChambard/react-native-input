@@ -8,7 +8,10 @@ import type { TextInputSelectionChangeEventData } from 'react-native';
 import type { TextStyle } from 'react-native';
 import type { ViewStyle } from 'react-native';
 import type { StyleProp } from 'react-native';
-import type { TextInputSubmitEditingEventData } from 'react-native';
+import type {
+  TextInputSubmitEditingEventData,
+  DimensionValue,
+} from 'react-native';
 import type { TextInputScrollEventData } from 'react-native';
 import type { TextInputKeyPressEventData } from 'react-native';
 import type { TextInputEndEditingEventData } from 'react-native';
@@ -142,7 +145,7 @@ const PasswordStrengthMeter: React.FC<PasswordStrengthMeterProps> = ({
 
   let [message, setMessage] = useState<string>('');
   let [color, setColor] = useState<string>('#000');
-  let [width, setWidth] = useState<string>('0%');
+  let [width, setWidth] = useState<DimensionValue>('0%');
 
   let onChangeCallback = useCallback(
     (val) => {
