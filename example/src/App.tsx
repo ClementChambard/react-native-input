@@ -44,7 +44,7 @@ export default function App() {
           return p.length;
         }}
         maxStrength={12}
-      />     
+      />
     </View>
   );
 }
