@@ -102,7 +102,14 @@ This README section now accurately reflects the detailed props for both componen
 Both components are highly customizable with various styling options:
 
 ```jsx
-      <PasswordStrengthMeter style={{ color: 'blue', fontSize: 16 }} />
+      <PasswordStrengthMeter
+        onChangeText={setPassword}
+        value={password}
+        strengthFunction={(p: string) => {
+          return p.length;
+        }}
+        maxStrength={12}
+      />
       <DatePicker
         onDateChange={(date: Date) => {
           setSelectedDay(date);
@@ -142,7 +149,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Documentation
 
-For more detailed documentation, including interactive examples and styling guides, please visit our [GitHub Documentation Page](LINK_TO_YOUR_DOCUMENTATION_PAGE).
+For more detailed documentation, including interactive examples and styling guides, please visit our [GitHub Documentation Page]().
 
 ---
 
