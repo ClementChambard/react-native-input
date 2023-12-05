@@ -1,17 +1,17 @@
-# react-native-input
+# react-native-input-ubod
 
 password strength meter and date picker for react native
 
 ## Installation
 
 ```sh
-npm install react-native-input
+npm install react-native-input-ubod
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-input';
+import { multiply } from 'react-native-input-ubod';
 
 // ...
 
