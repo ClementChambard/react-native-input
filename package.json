@@ -1,6 +1,6 @@
 {
-  "name": "react-native-input",
-  "version": "0.1.0",
+  "name": "react-native-input-ubod",
+  "version": "0.2.0",
   "description": "password strength meter and date picker for react native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
