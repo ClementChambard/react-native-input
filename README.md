@@ -134,11 +134,11 @@ Both components are highly customizable with various styling options:
 
 ## Contributing
 
-We welcome contributions! Please follow our [contributing guidelines](LINK_TO_YOUR_CONTRIBUTING_GUIDELINES).
+We welcome contributions! Please follow our [contributing guidelines](https://github.com/ClementChambard/react-native-input/blob/main/CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LINK_TO_YOUR_LICENSE_FILE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ClementChambard/react-native-input/blob/main/LICENSE) file for details.
 
 ## Documentation
 
