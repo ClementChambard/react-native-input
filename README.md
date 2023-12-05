@@ -23,9 +23,9 @@ A React Native package providing two essential UI components: `PasswordStrengthM
 ## Installation
 
 ```bash
-npm install react-native-input-Ubod
+npm install react-native-input-ubod
 # or
-yarn add react-native-input-Ubod
+yarn add react-native-input-ubod
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ yarn add react-native-input-Ubod
 ### PasswordStrengthMeter
 
 ```jsx
-import { PasswordStrengthMeter } from 'React-native-input-Ubod';
+import { PasswordStrengthMeter } from 'react-native-input-ubod';
 
 <PasswordStrengthMeter {...props} />
 ```
@@ -41,7 +41,7 @@ import { PasswordStrengthMeter } from 'React-native-input-Ubod';
 ### DatePicker
 
 ```jsx
-import { DatePicker } from '[your-package-name]';
+import { DatePicker } from 'react-native-input-ubod';
 
 <DatePicker {...props} />
 ```
