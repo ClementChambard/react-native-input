@@ -2,7 +2,7 @@ Creating a detailed README file for your `passwordStrengthMeter` and `datePicker
 
 ---
 
-# React-native-input-Ubod
+# react-native-input-Ubod
 
 A React Native package providing two essential UI components: `PasswordStrengthMeter` and `DatePicker`. Enhance your applications with a sophisticated password strength meter and a user-friendly date picker.
 
@@ -23,9 +23,9 @@ A React Native package providing two essential UI components: `PasswordStrengthM
 ## Installation
 
 ```bash
-npm install React-native-input-Ubod
+npm install react-native-input-Ubod
 # or
-yarn add React-native-input-Ubod
+yarn add react-native-input-Ubod
 ```
 
 ## Usage
