@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState } from 'react';
 
 import { StyleSheet, Text, View } from 'react-native';
-import { DatePicker, PasswordStrengthMeter } from 'react-native-input';
+import { DatePicker, PasswordStrengthMeter } from 'react-native-input-ubod';
 
 export default function App() {
   const [selectedDay, setSelectedDay] = useState<Date>();
