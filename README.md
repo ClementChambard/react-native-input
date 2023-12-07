@@ -1,7 +1,3 @@
-Creating a detailed README file for your `passwordStrengthMeter` and `datePicker` components requires a full breakdown of each component's props and functionalities. Here's a comprehensive README file tailored to your components:
-
----
-
 # react-native-input-Ubod
 
 A React Native package providing two essential UI components: `PasswordStrengthMeter` and `DatePicker`. Enhance your applications with a sophisticated password strength meter and a user-friendly date picker.
@@ -158,4 +154,4 @@ For more detailed documentation, including interactive examples and styling guid
 
 ---
 
-This README file covers detailed usage, props, and basic setup for both `PasswordStrengthMeter` and `DatePicker`. Adjust the content to match the exact functionality and features of your components. The links for contributing guidelines, license, and documentation page should be updated with actual URLs once you have these resources available.
+This README file covers detailed usage, props, and basic setup for both `PasswordStrengthMeter` and `DatePicker`. Adjust the content to match the exact functionality and features of your components.
