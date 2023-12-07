@@ -2,6 +2,16 @@
 
 A React Native package providing two essential UI components: `PasswordStrengthMeter` and `DatePicker`. Enhance your applications with a sophisticated password strength meter and a user-friendly date picker.
 
+## PasswordStrengthMeter 
+<p align="center">
+<img width="368" alt="Capture d’écran 2023-12-07 à 12 03 58" src="https://github.com/ClementChambard/react-native-input/assets/98128042/514051c1-e1f3-4488-8efb-d39df7cfcf21">
+<img width="384" alt="Capture d’écran 2023-12-07 à 12 03 26" src="https://github.com/ClementChambard/react-native-input/assets/98128042/d3381416-cf6c-493f-a109-ba3560f82ba7">
+</p>
+## DatePicker
+<p align="center">
+<img width="384" alt="Capture d’écran 2023-12-07 à 12 02 08" src="https://github.com/ClementChambard/react-native-input/assets/98128042/b949b2e3-61c0-47f4-8d4b-24bd477dd38f">
+<img width="362" alt="Capture d’écran 2023-12-07 à 12 01 55" src="https://github.com/ClementChambard/react-native-input/assets/98128042/8daf3d76-7a84-4665-9f70-c8cdc26ef71f">
+</p>
 ## Table of Contents
 
 - [Installation](#installation)
@@ -70,6 +80,7 @@ Based on the detailed prop interfaces you provided for `DatePicker` and `Passwor
 - `progressBarStyle` (StyleProp<ViewStyle>): Style for the progress bar. Default: `undefined`.
 - `containerStyle` (StyleProp<ViewStyle>): Style for the container. Default: `undefined`.
 - `messageStyle` (StyleProp<TextStyle>): Style for the message. Default: `undefined`.
+- 
 
 ### DatePicker Props
 
@@ -89,15 +100,14 @@ Based on the detailed prop interfaces you provided for `DatePicker` and `Passwor
 - `imageUrlTwo` (string): URL for an alternative image icon. Default: `undefined`.
 - `IconColor` (string): Color of the icon images. Default: `'black'`.
 
+
 ---
 
 This README section now accurately reflects the detailed props for both components, including their default values where applicable. Adjust the content as needed to align with your package's specific features and requirements.
 
 ## Styling and Customization
-<img width="368" alt="Capture d’écran 2023-12-07 à 12 03 58" src="https://github.com/ClementChambard/react-native-input/assets/98128042/514051c1-e1f3-4488-8efb-d39df7cfcf21">
-<img width="384" alt="Capture d’écran 2023-12-07 à 12 03 26" src="https://github.com/ClementChambard/react-native-input/assets/98128042/d3381416-cf6c-493f-a109-ba3560f82ba7">
-<img width="384" alt="Capture d’écran 2023-12-07 à 12 02 08" src="https://github.com/ClementChambard/react-native-input/assets/98128042/b949b2e3-61c0-47f4-8d4b-24bd477dd38f">
-<img width="362" alt="Capture d’écran 2023-12-07 à 12 01 55" src="https://github.com/ClementChambard/react-native-input/assets/98128042/8daf3d76-7a84-4665-9f70-c8cdc26ef71f">
+
+
 
 
 Both components are highly customizable with various styling options:
