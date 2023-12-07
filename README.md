@@ -44,7 +44,10 @@ yarn add react-native-input-ubod
 ```jsx
 import { PasswordStrengthMeter } from 'react-native-input-ubod';
 
-<PasswordStrengthMeter {...props} />
+<PasswordStrengthMeter
+        onChangeText={setPassword}
+        value={password}
+/>
 ```
 
 ### DatePicker
@@ -52,7 +55,10 @@ import { PasswordStrengthMeter } from 'react-native-input-ubod';
 ```jsx
 import { DatePicker } from 'react-native-input-ubod';
 
-<DatePicker {...props} />
+<DatePicker
+        onDateChange={(date: Date) => {
+          setSelectedDay(date);
+}} />
 ```
 Based on the detailed prop interfaces you provided for `DatePicker` and `PasswordStrengthMeter`, I'll update the README section to accurately reflect these components.
 
